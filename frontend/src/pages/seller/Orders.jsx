@@ -35,7 +35,7 @@ const Orders = () => {
           <div className="flex gap-5">
             <img
               className="w-12 h-12 object-cover opacity-60"
-              src={`http://localhost:5000/images/${order.items[0].product.image[0]}`}
+              src={`https://grocery-mern-pro.onrender.com/images/${order.items[0].product.image[0]}`}
               alt="boxIcon"
             />
             <>
