@@ -2,7 +2,7 @@ import {useContext, useEffect, useState} from 'react'
 import { AppContext } from '../context/AppContext';
 import { useParams, Link } from 'react-router-dom';
 import { assets } from "../assets/assets";
-import { set } from 'mongoose';
+
 
 const ProductDetails = () => {
      
