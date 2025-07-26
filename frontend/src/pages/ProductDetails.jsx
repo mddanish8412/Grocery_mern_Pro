@@ -37,13 +37,13 @@ const ProductDetails = () => {
                               className="border max-w-24 border-gray-500/30 
                               rounded overflow-hidden cursor-pointer" >
 
-                                <img src={`http://localhost:5000/images/${product.image[0]}`} alt={`Thumbnail ${index + 1}`} />
+                                <img src={`https://grocery-mern-pro.onrender.com/images/${product.image[0]}`} alt={`Thumbnail ${index + 1}`} />
                             </div>
                         ))}
                     </div>
 
                     <div className="border border-gray-500/30 max-w-100 rounded overflow-hidden">
-                        <img src={`http://localhost:5000/images/${thumbnail}`} alt="Selected product" className="w-full h-full object-cover" />
+                        <img src={`https://grocery-mern-pro.onrender.com/images/${thumbnail}`} alt="Selected product" className="w-full h-full object-cover" />
                     </div>
                 </div>
 
