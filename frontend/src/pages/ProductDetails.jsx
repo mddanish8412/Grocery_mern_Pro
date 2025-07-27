@@ -33,7 +33,7 @@ const ProductDetails = () => {
                             <div
                              key={index} 
                              onClick={() => 
-                             setThumbnail(`http://localhost:5000/images/${image}`)}
+                             setThumbnail(`https://grocery-mern-pro.onrender.com/images/${image}`)}
                               className="border max-w-24 border-gray-500/30 
                               rounded overflow-hidden cursor-pointer" >
 
